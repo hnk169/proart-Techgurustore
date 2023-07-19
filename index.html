@@ -18,26 +18,19 @@
 				cursor: pointer;
 				border-bottom: none;
 			  }	  
-			p#product-paragraph.collapsed {
-				overflow: hidden;
-				max-height: 4em; 
-			}
-			
-			p#product-paragraph.collapsed + a.see-more-product-paragraph {
+			.toggle-p-intro.collapsed + a.see-more-p-intro,
+			.toggle-p-product.collapsed + a.see-more-product {			
 				display: inline-block;
 				color: rgb(9, 74, 154);
 				cursor: pointer;
 			}
-			p#p-intro.collapsed {
+
+			.toggle-p-product.collapsed,
+			.toggle-p-intro.collapsed {
 				overflow: hidden;
 				max-height: 4em;
 			}
 			
-			p#p-intro.collapsed + a.see-more-p-intro {
-				display: inline-block;
-				color: rgb(9, 74, 154);
-				cursor: pointer;
-			  }
 			.banner {
 				width: 100%;
 				height: auto;
@@ -139,7 +132,7 @@
 												</span>
 												</h2>
 										</header>
-										<p id="p-intro" style="text-align:left !important ;"> <span class="image right"><img src="img/avartar_proart.png" alt="Màn hình đồ họa chuyên dụng hàng đầu thế giới" /></span>
+										<p class = "toggle-p-intro" id="toggle-p-intro" style="text-align:left !important ;"> <span class="image right"><img src="img/avartar_proart.png" alt="Màn hình đồ họa chuyên dụng hàng đầu thế giới" /></span>
 											Chào mừng bạn đến với chuyên trang của Techgurustore và ASUS ProArt! 
 											<br>
 											<br>Chúng tôi hân hạnh giới thiệu đến bạn một sự hợp tác đặc biệt giữa ASUS ProArt - một thương hiệu hàng đầu về công nghệ đồ họa - và Techgurustore - một nhà bán lẻ uy tín. Chúng tôi tự tin rằng chúng tôi đã tạo ra những máy tính Workstation lắp ráp với cấu hình tốt nhất, đáp ứng nhu cầu của nhiếp ảnh gia, kiến trúc sư, nhà làm phim và các nghệ sĩ animation.
@@ -202,7 +195,7 @@
 										 Tinh Tế
 									</li>
 								</ul>
-								<p id="product-paragraph" class="content">Chào mừng bạn đến với sự kết hợp tuyệt vời giữa <a target="_blank" href="https://techgurustore.vn/products/fractal-design-north" aria-label="Techgurustore - Fractal Design North"><b>Fractal-Design North</b></a>, sản phẩm vỏ máy tính với thiết kế đơn giản từ Thụy Điển, và ASUS ProArt, thương hiệu hàng đầu mang lại màn hình và linh kiện chuyên nghiệp cho những nhà thiết kế. Đây là sự kết hợp hoàn hảo, mang đến trải nghiệm tuyệt vời cho các nhà thiết kế và nghệ sĩ tìm kiếm sự hoàn thiện về thiết kế và hiệu suất.
+								<p id="toggle-p-product-0" class="content toggle-p-product">Chào mừng bạn đến với sự kết hợp tuyệt vời giữa <a target="_blank" href="https://techgurustore.vn/products/fractal-design-north" aria-label="Techgurustore - Fractal Design North"><b>Fractal-Design North</b></a>, sản phẩm vỏ máy tính với thiết kế đơn giản từ Thụy Điển, và ASUS ProArt, thương hiệu hàng đầu mang lại màn hình và linh kiện chuyên nghiệp cho những nhà thiết kế. Đây là sự kết hợp hoàn hảo, mang đến trải nghiệm tuyệt vời cho các nhà thiết kế và nghệ sĩ tìm kiếm sự hoàn thiện về thiết kế và hiệu suất.
 
 									<br><a target="_blank" href="https://techgurustore.vn/products/fractal-design-north" aria-label="Techgurustore - Fractal Design North"><b>Fractal-Design North</b></a>, với tên gọi độc đáo, là sản phẩm vỏ máy tính được đánh giá cao với thiết kế đơn giản và tinh tế từ Thụy Điển. Vỏ máy tính này không chỉ đẹp mắt mà còn thể hiện cam kết với sự đơn giản và tinh tế trong thiết kế.
 									
@@ -232,7 +225,7 @@
 											<span class="image fit"><img class="zoom-image" src="img/photographerstandard/standardworkstation_north.png" alt="Cấu hình standard dành cho nhiếp ảnh gia " /></span>
 											<h3>Nhiếp Ảnh Gia - Standard</h3>
 										</a>
-										<p id="product-paragraph"><i>Stardard Workstation - Photographer ( Adobe Phototoshop, Lightroom)</i> 
+										<p class = "toggle-p-product" id="toggle-p-product-1"><i>Stardard Workstation - Photographer ( Adobe Phototoshop, Lightroom)</i> 
 											<br>Đây là cấu hình tiêu chuẩn được tối ưu hóa để đáp ứng các yêu cầu xử lý hình ảnh phức tạp của Adobe Photoshop và Lightroom. Với việc sử dụng công nghệ tiên tiến và cấu hình mạnh mẽ, nó cung cấp cho nhiếp ảnh gia một môi trường làm việc chuyên nghiệp, nhanh chóng và hiệu quả để tạo ra những tác phẩm nghệ thuật độc đáo và đẹp mắt.
 										</p>
 									</li>
@@ -244,7 +237,7 @@
 											<span class="image fit"><img class="zoom-image" src="img/photographerpro/proworkstation_north.png" alt="Cấu hình PRO dành cho nhiếp ảnh gia " /></span>
 											<h3>Nhiếp Ảnh Gia - PRO</h3>
 										</a>
-										<p id="product-paragraph"><i>PRO Workstation - Photographer ( Adobe Phototoshop, Lightroom)</i> 
+										<p class = "toggle-p-product" id="toggle-p-product-2"><i>PRO Workstation - Photographer ( Adobe Phototoshop, Lightroom)</i> 
 											<br>PRO Workstation - Dành cho nhiếp ảnh gia là sự nâng cấp đáng giá của máy tính Stardard Workstation - Dành cho nhiếp ảnh gia, mang lại hiệu năng cao và tính năng tiên tiến hơn. Với sự kết hợp của công nghệ tiên tiến và cấu hình mạnh mẽ, nó mang đến cho nhiếp ảnh gia một môi trường làm việc đẳng cấp, nhanh chóng và hiệu quả để tạo ra những tác phẩm nghệ thuật độc đáo và đẹp mắt.
 										</p>
 									</li>
@@ -256,7 +249,7 @@
 											<span class="image fit"><img class="zoom-image" src="img/videoeditor/videoeditor_north.png" alt="Cấu hình chuyên dụng cho dựng phim" /></span>
 											<h3>Dựng Phim Chuyên Nghiệp</h3>
 										</a>
-										<p id="product-paragraph"><i>Video Editor - Adobe Premiere Pro (H264/HEVC)</i> 
+										<p class = "toggle-p-product" id="toggle-p-product-3"><i>Video Editor - Adobe Premiere Pro (H264/HEVC)</i> 
 											<br>Đây là cấu hình được thiết kế tối ưu tốt nhất để đáp ứng các yêu cầu xử lý video phức tạp của Adobe Premiere Pro với định dạng H264/HEVC. Với việc sử dụng công nghệ tiên tiến và cấu hình mạnh mẽ, nó mang đến cho biên tập viên Video một môi trường làm việc chuyên nghiệp, nhanh chóng và hiệu quả để tạo ra những tác phẩm video độc đáo và chất lượng cao. 
 										</p>
 									</li>
@@ -268,7 +261,7 @@
 											<span class="image fit"><img class="zoom-image" src="img/blender/blenderi913900k_north.png" alt="Cấu hình chuyên dụng cho 3D Blender" /></span>
 											<h3>Diễn Họa - 3D Blender</h3>
 										</a>
-										<p id="product-paragraph"><i>3D/Animation - Blender Ready</i> 
+										<p class = "toggle-p-product" id="toggle-p-product-4"><i>3D/Animation - Blender Ready</i> 
 											<br>Đây là cấu hình được thiết kế tối ưu tốt nhất để đáp ứng các yêu cầu xử lý phức tạp của công việc 3D và Animation với phần mềm Blender. Với việc sử dụng công nghệ tiên tiến và cấu hình mạnh mẽ, nó mang đến cho nghệ sĩ 3D và Animator một môi trường làm việc chuyên nghiệp, nhanh chóng và hiệu quả để tạo ra những tác phẩm 3D và hoạt hình độc đáo và chất lượng cao.
 										</p>
 									</li>
@@ -279,7 +272,7 @@
 											<span class="image fit"><img class="zoom-image" src="img/architecti7/architecti7_13700k_north.png" alt="Cấu hình i7 chuyên dụng 3D autodesk dùng trong kiến trúc" /></span>
 											<h3>Kiến Trúc Nội Thất - Intel i7</h3>
 										</a>									
-										<p id="product-paragraph"><i>Kiến Trúc Nội Thất - Autocad/Revit/SolidWork/Inventor</i>
+										<p class = "toggle-p-product" id="toggle-p-product-5"><i>Kiến Trúc Nội Thất - Autocad/Revit/SolidWork/Inventor</i>
 											<br>Cấu hình i7 dành cho Kiến trúc nội thất được thiết kế tối ưu nhất để đáp ứng các yêu cầu xử lý phức tạp của công việc kiến trúc nội thất với Autocad, Revit, SolidWorks và Inventor. Với việc sử dụng công nghệ tiên tiến và cấu hình mạnh mẽ, nó mang đến cho các kiến trúc sư và thiết kế viên nội thất một môi trường làm việc chuyên nghiệp, nhanh chóng và hiệu quả để tạo ra những bản vẽ và mô hình chi tiết, đáp ứng các yêu cầu của dự án kiến trúc nội thất.
 										</p>
 									</li>
@@ -290,7 +283,7 @@
 											<span class="image fit"><img class="zoom-image" src="img/architecti9/architecti9_13900k_north.png" alt="Cấu hình i9 chuyên dụng 3D autodesk dùng trong kiến trúc" /></span>
 											<h3>Kiến Trúc Nội Thất - Intel i9</h3>
 										</a>							
-										<p id="product-paragraph"><i>Kiến Trúc Nội Thất - Hiệu Năng Cao - Autocad/Revit/SolidWork/Inventor</i>
+										<p class = "toggle-p-product" id="toggle-p-product-6"><i>Kiến Trúc Nội Thất - Hiệu Năng Cao - Autocad/Revit/SolidWork/Inventor</i>
 											<br>Cấu hình Kiến trúc nội thất Hiệu Năng Cao được thiết kế để đáp ứng các yêu cầu xử lý phức tạp và đòi hỏi hiệu năng cao của công việc kiến trúc nội thất với Autocad, Revit, SolidWorks và Inventor. Đây là phiên bản nâng cấp của bản i7, cung cấp khả năng làm việc mượt mà và hiệu quả hơn, giúp các kiến trúc sư và thiết kế viên nội thất tối ưu hóa quy trình làm việc và tạo ra những bản vẽ và mô hình chi tiết chất lượng cao nhất cho các dự án kiến trúc nội thất.
 										</p>
 									</li>
@@ -301,7 +294,7 @@
 											<span class="image fit"><img class="zoom-image" src="img/autodesk/autodeski713700k_north.png" alt="" /></span>
 											<h3>Diễn Họa - Autodesk 3Ds MAX - MAYA</h3>
 										</a>											
-										<p id="product-paragraph"><i>3D/Animation - Autodesk 3Ds Max/Maya</i>
+										<p class = "toggle-p-product" id="toggle-p-product-7"><i>3D/Animation - Autodesk 3Ds Max/Maya</i>
 											<br>Đây là cấu hình được thiết kế để đáp ứng các yêu cầu xử lý phức tạp của công việc diễn họa với 3Ds MAX và MAYA. Với việc sử dụng công nghệ tiên tiến và cấu hình mạnh mẽ, nó mang đến cho nghệ sĩ diễn họa một môi trường làm việc chuyên nghiệp, nhanh chóng và hiệu quả để tạo ra những tác phẩm diễn họa độc đáo và chất lượng cao.
 										</p>
 									</li>
@@ -362,68 +355,38 @@
 			<script src="proart-techgurustore/assets/js/breakpoints.min.js"></script>
 			<script src="proart-techgurustore/assets/js/util.js"></script>
 			<script src="proart-techgurustore/assets/js/main.js"></script>
-			<script> 
-				function truncatePIntro() {
-					var lineHeight = parseInt($('p#p-intro').css('line-height'));
-					var numLines = 13; // Adjust the number of lines to show
-				  
-					$('p#p-intro').each(function() {
-					  var maxHeight = lineHeight * numLines; // Calculate the max height based on line height and number of lines
-					  if ($(this).height() > maxHeight) {
-						$(this).addClass('collapsed');
-						$(this).css('overflow', 'hidden');
-						$(this).css('max-height', maxHeight + 'px');
-						$(this).after('<a href="#intro" class="see-more-p-intro">Xem thêm</a>');
-					  }
-					});
-				  
-					$(document).on('click', '.see-more-p-intro', function() {
-					  var paragraph = $(this).prev('p#p-intro');
-					  if (paragraph.hasClass('collapsed')) {
-						paragraph.removeClass('collapsed');
-						paragraph.css('max-height', 'none');
-						$(this).text('Ẩn bớt');
-					  } else {
-						paragraph.addClass('collapsed');
-						paragraph.css('max-height', lineHeight * numLines + 'px');
-						$(this).text('Xem thêm');
-					  }
-					});
-				  }
-				  
-				  function truncateParagraphs() {
-					var lineHeight = parseInt($('p#product-paragraph').css('line-height'));
-					var numLines = 4; // Adjust the number of lines to show
-				  
-					$('p#product-paragraph').each(function() {
-					  var maxHeight = lineHeight * numLines; // Calculate the max height based on line height and number of lines
-					  if ($(this).height() > maxHeight) {
-						$(this).addClass('collapsed');
-						$(this).css('overflow', 'hidden');
-						$(this).css('max-height', maxHeight + 'px');
-						$(this).after('<a class="see-more-product-paragraph">Xem thêm</a>');
-					  }
-					});
-				  
-					$(document).on('click', '.see-more-product-paragraph', function() {
-					  var paragraph = $(this).prev('p#product-paragraph');
-					  if (paragraph.hasClass('collapsed')) {
-						paragraph.removeClass('collapsed');
-						paragraph.css('max-height', 'none');
-						$(this).text('Ẩn bớt');
-					  } else {
-						paragraph.addClass('collapsed');
-						paragraph.css('max-height', lineHeight * numLines + 'px');
-						$(this).text('Xem thêm');
-					  }
-					});
-				  }
-				  
-				  $(document).ready(function() {
-					truncatePIntro();
-					truncateParagraphs();
-				  });
-				  
+			<script>
+				function truncateP(numLines, paragraphClass, seeMoreClass) {
+				var lineHeight = parseInt($(paragraphClass).css('line-height'));
+
+				$(paragraphClass).each(function() {
+					var maxHeight = lineHeight * numLines; // Calculate the max height based on line height and number of lines
+					if ($(this).height() > maxHeight) {
+					$(this).addClass('collapsed');
+					$(this).css('overflow', 'hidden');
+					$(this).css('max-height', maxHeight + 'px');
+					$(this).after('<a class="' + seeMoreClass + '">Xem thêm</a>');
+					}
+				});
+
+				$(document).on('click', '.' + seeMoreClass, function() {
+					var paragraph = $(this).prev(paragraphClass);
+					if (paragraph.hasClass('collapsed')) {
+					paragraph.removeClass('collapsed');
+					paragraph.css('max-height', 'none');
+					$(this).text('Ẩn bớt');
+					} else {
+					paragraph.addClass('collapsed');
+					paragraph.css('max-height', lineHeight * numLines + 'px');
+					$(this).text('Xem thêm');
+					}
+				});
+				}
+
+				$(document).ready(function() {
+				truncateP(13, ".toggle-p-intro", "see-more-p-intro");
+				truncateP(4, ".toggle-p-product", "see-more-product");
+				});
 			</script>
 	</body>
 </html>
